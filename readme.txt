@@ -1,3 +1,5 @@
+#如果只想git对应系统的环境，则将或者git pull  git@github.com:sparkle-silicon/TOOLCHAIN.git linux:master
+
 #1.Linux:
 	#openocd
 	cp ./Linux/openocd/99-openocd.rules /etc/udev/rules.d/#这是调试器在Linux下使用openocd的运行规则
@@ -27,6 +29,8 @@
 	./make.sh # make or make compile #编译
 	./clean.sh # make clean #清除编译
 	openocd -f ./AE10X/ENV/openocd_hbird.cfg #使用ejtag
+
+
 #2.Windows:
 	#1.解压工具链到相应的位置
 	2.编辑系统环境变量-》选中系统变量的Path，点击系统变量下的编辑按键-》将工具链的bin文件夹的绝对地址添加上去，并且移动到较为前面的位置，防止冲突
