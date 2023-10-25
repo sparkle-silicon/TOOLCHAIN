@@ -1,4 +1,4 @@
-#如果只想git对应系统的环境，则将或者git pull  git@github.com:sparkle-silicon/TOOLCHAIN.git linux:master
+#如果只想git对应系统的环境，则选择git pull  git@github.com:sparkle-silicon/TOOLCHAIN.git windows:master或者git pull  git@github.com:sparkle-silicon/TOOLCHAIN.git linux:master，否则只需要获取授权后git pull  git@github.com:sparkle-silicon/TOOLCHAIN.git 即可
 
 #1.Linux:
 	#openocd
