@@ -16,7 +16,7 @@
 	sudo gedit /etc/environment #添加环境变量方法2
 		export PATH=<Absolute_address_of_the_tools_directory>/gcc/bin:$PATH #绝对地址的路径
 		export PATH=<Absolute_address_of_the_tools_directory>/openocd/bin:$PATH #绝对地址的路径
-	sorce /etc/profile#重加载环境变量
+	sorce /etc/profile#重加载环境变量 #不起作用或 commond not found ，尝试 sudo source -s /etc/profile
 	reboot#重启
 	#全部安装完成后测试是否不正常，编译工具异常查看环境变量问题，openocd异常查看接线以及驱动问题
 	mkdir <Absolute_address_of_the_project_directory>
